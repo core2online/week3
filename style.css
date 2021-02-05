@@ -3,6 +3,31 @@
     src: url("./assets/SpaceGrotesk-Regular.woff2") format("woff2");
 }
 
+@font-face {
+    font-family: "Space Grotesk Bold";
+    src: url("./assets/SpaceGrotesk-Bold.woff2") format("woff2");
+}
+
 h1 {
     font-family: "Space Grotesk Regular";
+}
+
+h2 {
+    font-family: "Space Grotesk Bold";
+}
+
+.paragraph {
+    font-family: "Space Grotesk Regular";
+    font-size: 50px;
+    color: red;
+}
+
+.blue {
+    color: blue;
+    border-bottom: 1px solid blue;
+    font-size: 80px;
+}
+
+.invisible:hover {
+    opacity: 0;
 }
